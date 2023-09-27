@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+ overflow: hidden;
+}
+
+.logoCont{
+    width: 50px;
+    margin:  0 10px ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logoCont a h1{
+    color: white;
+    font-weight: 600;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(6, 184, 255);
+    padding: 10px;
+}
+
+.navItens{
+    display: flex;
+    margin: 10px;
+    list-style: none;
+    font-weight: 600;
+    justify-content: flex-end;
+    color: white;
+    
+}
+
+.navItens li{
+    margin: 0 10px;
+    padding: 0 5px;
+    font-size: .9rem;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.navItens li:hover{
+    background-color: white;
+    color: black;
+    scale: 1.2;
+}
+
+.content{
+    background:linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)),url('../images/image.png');
+    height: 100vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contentText{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.contentText h2{
+    font-size: 4rem;
+}
+
+.contentText p{
+    font-size: 1.2rem;
+}
+
+.btns a{
+    background-color: aliceblue;
+    font-weight: bold;
+    color: rgb(6, 184, 255);
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: .3s ease-in;
+}
+
+.btns a:hover{
+    outline: 1px solid white;
+    color: white;
+    background-color: transparent;
+    scale: 1.5;
+}
